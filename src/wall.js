@@ -5,7 +5,15 @@
  * Voir le fichier de tests associé (spec/wallSpec.js)
  */
 function wall(existingMessages, newMessage) {
-    // CODE HERE
+    
+    // expect(wall(history, "Hier, j'ai mangé une pomme !").length).toEqual(4);
+    
+
+    existingMessages.push(newMessage);
+    return existingMessages;
+
+    
+
 }
 
 export { wall };
