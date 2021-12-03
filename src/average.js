@@ -7,13 +7,13 @@
 function average(scores)
 {  
     
-    var n = scores.length;
-    var somme=0;
-    for(let i=0; i<n; i++)
+    
+    let somme=0;
+    for(let i=0; i<scores.length; i++)
     {
         somme += scores[i];
     }
-    var resultat = somme / n;
+    let resultat = somme / scores.length;
     return resultat;
  
 }

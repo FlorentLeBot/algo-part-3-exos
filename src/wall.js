@@ -7,12 +7,9 @@
 function wall(existingMessages, newMessage) {
     
     // expect(wall(history, "Hier, j'ai mangé une pomme !").length).toEqual(4);
-    
 
     existingMessages.push(newMessage);
     return existingMessages;
-
-    
 
 }
 

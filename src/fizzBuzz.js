@@ -11,24 +11,21 @@
 
 function fizzBuzz(min, max) {
 
-    let resultat = [];
-    
-    
-    for (let i = 1; i <= 100; i++) {
+    let tableau = [];
+
+    for (let i = min; i < max; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            return "FizzBuzz";
+            tableau.push("FizzBuzz");
         } else if (i % 3 === 0) {
-            return "Fizz";
+            tableau.push("Fizz");
         } else if (i % 5 === 0) {
-            return "Buzz";
+            tableau.push("Buzz");
         } else {
-            return i;
+            tableau.push(i);
         }
     }
-    resultat[i] = min(max[i]);
-    return resultat;
+    return tableau;
 }
-
 
 export {
     fizzBuzz

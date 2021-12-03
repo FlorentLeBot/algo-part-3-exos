@@ -12,6 +12,12 @@ function oddOrEven(number) {
     else{
         return "Odd";
     }
+
+    // bang bang
+    // ternaire
+    // 
+    // return !!(number % 2) ? "Odd" : "Even"
+
 }
 
 export { oddOrEven };

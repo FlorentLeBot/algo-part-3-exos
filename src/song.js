@@ -10,12 +10,13 @@
  * Voir le fichier de tests associé (spec/songSpec.js)
  */
 function song(km) {
-    let km = "";
-    let resultat = km + " km à pied, ça use, ça use" + "<br>" + km + " km à pied, ça use les souliers";
-    for (km = 0; km<=100; km++ ){
-        return resultat;
+
+    let song = "";
+
+    for (let nbKm = 1; nbKm <= km; nbKm++){
+        song += nbKm + " km à pied, ça use, ça use, ça use,\n" + nbKm + " km à pied, ça use les souliers\n";
     }
-    return song();
-}
+    return song;
+ }
 
 export { song };

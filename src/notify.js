@@ -15,9 +15,21 @@ function notify(messages) {
     if (counter > 5){
         color="red";
     }
-    
-
     return [counter, color];
+
+
+    // let counter = messages.length;
+    // let color;
+    
+    // if (counter > 5){
+    //     return [counter, red];
+    // }
+    // else{
+    //     return [counter, green];
+    // }
+    // return [counter, color];
+
+
 }
 
 export { notify };
